@@ -1,0 +1,256 @@
+
+span {
+    padding: 1px;
+    border-radius: 3px;
+}
+
+.rtl {
+    direction: rtl;
+    white-space: nowrap;
+}
+
+.jp_text_box {
+    width: 100%;
+}
+
+.chunk {
+    display: inline-block;
+    vertical-align: bottom;
+    direction: ltr;
+    border: 1px solid black;
+    margin: 0px -1px;
+    background-color: darkseagreen;
+}
+
+.phantom {
+    opacity: 0.2;
+}
+
+.invis {
+    visibility: hidden;
+}
+
+.collapsed {
+    display: none;
+}
+
+.nowrap {
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.para {
+    border-right: 6px solid black !important;
+}
+
+.knp {
+    display: none;
+    vertical-align: middle;
+    border-radius: 1px;
+    padding: 2px;
+}
+
+.unit-core {
+    position: relative;
+}
+
+.unit-front {
+    font-size: 10pt;
+}
+
+.unit-glow {
+    border: 3px solid red !important;
+}
+
+.unit-back {
+    font-size: 9pt;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    resize: both;
+    border-radius: 6px;
+    padding: 7px;
+    z-index: 1;
+    display: none;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.back-surface {
+    font-size: 24pt;
+}
+
+.token {
+    border: 2px solid red;
+}
+
+.morph {
+    padding: 1px;
+    border: 1px dashed red;
+}
+
+.pos-jm-only {
+    opacity: 0.5;
+    font-style: italic;
+    font-size: smaller;
+}
+
+.pos-morph-only {
+    text-decoration: line-through;
+    font-size: smaller;
+}
+
+.pos-both {
+    font-weight: bold;
+    font-size: smaller;
+}
+
+span.conj {
+    font-size: smaller;
+}
+
+span.rating,
+span.terms {
+    /*font-size: smaller;*/
+    display: none;
+}
+
+.subsumed {
+    display: none;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table.main {
+    border: 1px solid black;
+    margin-bottom: 500px;
+    width: 100%;
+}
+
+table.knp {
+    text-align: center;
+    border: 1px solid;
+    font-size: inherit;
+    color: inherit;
+}
+
+table.gloss,
+table.gloss td {
+    border: none;
+    font-size: inherit;
+    color: inherit;
+    white-space: nowrap;
+}
+
+table.knp > tbody > tr > td,
+table.main > tbody > tr > td {
+    padding: 1px;
+    border: 1px solid;
+}
+
+tbody.gloss {
+    overflow: hidden;
+}
+
+tr.gloss {
+    border: none;
+}
+
+tr.header {
+    font-size: 9pt;
+}
+
+/* http://stackoverflow.com/a/4407335/2699475 */
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.隣,
+.無格,
+.無格従属,
+.括弧並列,
+.NONE {
+    background-color: whitesmoke;
+}
+
+.カラ格 {
+    background-color: palegreen;
+}
+
+.デ格 {
+    background-color: green;
+    color: white;
+    border-color: white;
+}
+
+.マデ格,
+.ニ格 {
+    background-color: lightyellow;
+}
+
+.同格未格, /* apposition */
+.ノ格 {
+    background-color: gray;
+    color: white;
+}
+
+.ヲ格 {
+    background-color: orange;
+}
+
+.ト格 {
+    background-color: blue;
+    color: white;
+    border-color: white;
+}
+
+.ガ格 {
+    background-color: red;
+    color: white;
+    border-color: white;
+}
+
+.ヘ格 {
+    background-color: palegreen;
+}
+
+.連格,
+.連体,
+.連体ヤ {
+    background-color: coral;
+}
+
+.同格連用,
+.同格連体,
+.複合辞連用,
+.連用 {
+    background-color: lightblue;
+}
+
+.未格,
+.文末 {
+    background-color: black;
+    color: white;
+    border-color: white;
+}
+
